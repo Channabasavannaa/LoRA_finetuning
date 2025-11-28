@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Virtual environment
+lora/
+venv/
+env/
+
+# Checkpoints
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+outputs/
+
+# HuggingFace caches
+cache/
+.huggingface/
+__pycache__/
+
+# Dataset
+data/
+datasets/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Logs
+logs/
+wandb/
